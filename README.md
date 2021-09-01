@@ -8,6 +8,8 @@ cisco_enviar_cmd.py: Enviar comandos para um switch cisco para serem executados 
 
 cisco_consultar_config.py: Executar comandos de show run e show start utilizando filtros para realizar comparações
 
+
+
 Scripts utilizados em conjunto, utilizados em um projeto de alteração de helper address. 
 
 cisco-filtrar.py : realiza a leitura de um arquivo texto, procura por um padrão de helper address, e salva em um arquivo de texto
