@@ -1,7 +1,0 @@
-Scripts utilizados em conjunto, utilizados em um projeto de alteração de helper address.
-
-cisco-filtrar.py : realiza a leitura de um arquivo texto, procura por um padrão de helper address, e salva em um arquivo de texto
-
-cisco-enviar.py : utilizado para enviar a saida do arquivo anterior para o switch.
-
-hp-filtrar.py e hp-enviar.py : o mesmo para a descrição acima.
