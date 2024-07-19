@@ -1,1 +1,5 @@
 Script para pingar uma lista de dispositivos armazenados no arquivo citado.
+
+Desenvolvido e executado em Python 3.6.8
+
+Melhorias: terminar o desenvolvido em thread ou remover.
