@@ -1,1 +1,11 @@
-escrever
+Utilizado para identificar o SO de switches e roteadores dos seguintes vendors:
+nexus = 'Cisco NX-OS'
+cisco = 'Cisco IOS Software'
+cisco_2950 = 'C2950 Software'
+enterasys = 'Enterasys'
+extreme = 'Extreme'
+huawei = 'Huawei'
+hp = 'HP'
+juniper = 'Juniper Networks'
+
+Se o equipamento não responder a ping ou não for identificado pelas strings acima na saída do SNMPWALK, será categorizado como "NAO IDENTIFICADOS"
