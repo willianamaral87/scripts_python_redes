@@ -9,3 +9,10 @@ hp = 'HP'
 juniper = 'Juniper Networks'
 
 Se o equipamento não responder a ping ou não for identificado pelas strings acima na saída do SNMPWALK, será categorizado como "NAO IDENTIFICADOS"
+
+Melhoria:
+1) Tratar a saída gerado quando um device não responde a ping.
+  - Na implementação atual é tratado como "Não identificado"
+  - Tratar como: sem resposta a ICMP
+  - O Objetivo é diferenciar os devices que não estão categorizados com os que não respondem a ping.
+2) Tratar outros SOs como Nortel
